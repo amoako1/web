@@ -1,0 +1,38 @@
+body{
+	background-color: #0df;
+	font-family: algerian;
+	font-size: 20px;
+}
+.div1 ,.div2 , .div3{
+	margin: 20px auto;
+	text-align: center;
+}
+.div1 h1{
+	color: #4b4;
+	font-size: 60px;
+	text-transform:capitalize;
+	margin-top: 80px;
+	padding: 20px 30px;
+}
+.div2.p{
+	font-size: 30px;
+	color: #fff;
+
+	font-weight: bolder;
+}
+.div3 a{
+	font-size: 30px;
+	padding: 10px 20px;
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: bold;
+border-radius: 40px
+}
+.div3 a:hover{
+	color: #0000ff;
+	background-color: #fff;
+	
+}
+

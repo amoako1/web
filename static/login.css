@@ -1,0 +1,31 @@
+body{
+	background-color: #0df;
+	font-family: algerian;
+	font-size: 40px;
+	text-align: center;
+}
+
+.d1 h2{
+	text-decoration:underline;
+	
+	font-weight: bold;
+	margin-left: 1px;
+	text-align: center;
+	background-color: #eeffdd;
+	border:5px solid #0edffd;
+} 
+.f1{
+	border:5px solid #0000ff;
+	margin: 5px;
+	padding:5px 20px;
+}
+
+.f1, .d2{
+
+}
+
+.dlast button:hover{
+	color: #0000ff;
+	background-color: #dddeee;
+
+}

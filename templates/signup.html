@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <style>
+              table{
+        border-collapse: collapse;
+        margin: auto;
+        border :2px solid black; 
+        border-radius: 10px;
+        background-color: #ffbfff;
+        font-family: aharoni;
+        width: 50%;
+        font-size: 20px;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+      
+      
+              }
+              table,td,th{border: 2px solid black;}
+              tr,th{text-align: center;}
+
+              thead{text-align: center;
+                background-color: #1243ddff;}
+
+       </style>
+
+
+
+    <title>Sign Up form</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='signup.css')}}">
+</head>
+<body>
+    <div class="dlen">
+        <p>count of sign up is <span id="count">0</span>
+        </p>
+    </div>
+            <div class="d1">
+                <h2>
+                    sign up form
+                </h2>
+                <form id="signupform" class="f1">
+
+                    <div class="d2">
+                        <label>Name</label>
+                        <input type="text" id="studentname"/>
+                    </div>
+
+                    <div class="d2">
+                        <label>username</label>
+                        <input type="text" id="username"/>
+                    </div>
+                    <div class="d2">
+                        <label>password</label>
+                        <input type="password" id="password"/>
+                    </div>
+
+                    <div class="d2">
+                        <label>gender</label>
+                        <select id="gender">
+                            <option value="0">gender</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
+                        
+                    </div>
+                    <div class="d2">
+                        <label>date of birth</label>
+                        <input type="Date" id="dob"/>
+                    </div>
+
+
+                    <div class="dlast">
+                        <button type="button" id="btnsignup">Sign Up</a></button>
+                        <a href="index">List Of Sign Up Students</a>
+                    </div>
+                </form>
+            </div>
+            <div class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            
+                            <th>StudentName</th>
+                            <th>UserName</th>
+                            <th>gender</th>
+                            <th>date of birth</th>
+                        </tr>
+                    </thead>
+                    <tbody id="regStudents">
+       
+                                   </tbody>
+                                   
+                </table>
+                
+            </div>
+                <script type="text/javascript" src="../static/js/signup.js"></script>
+</body>
+
+</html>
